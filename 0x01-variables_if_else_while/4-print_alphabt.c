@@ -13,7 +13,8 @@ char ch = start;
 while (ch <= end)
 {
 if ((ch != 'q') && (ch != 'e'))
-{putchar(ch);}
+{putchar(ch);
+}
 ch++;
 }
 putchar('\n');
