@@ -10,18 +10,18 @@ int main(void)
 char start = 'a';
 char end = 'z';
 char ch = start;
+char big = 'A';
+char bigger = 'Z';
+char bg = big;
 while (ch <= end)
 {
 putchar(ch);
 ch++;
 }
-char start2 = 'A';
-char end2 = 'Z';
-char ch2 = start2;
-while (ch2 <= end2)
+while (bg <= bigger)
 {
-putchar(ch);
-ch++;
+putchar(bg);
+bg++;
 }
 putchar('\n');
 return (0);
