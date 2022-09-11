@@ -15,10 +15,10 @@ while (ch <= end)
 putchar(ch);
 ch++;
 }
-char start = 'A';
-char end = 'Z';
-char ch = start;
-while (ch <= end)
+char start2 = 'A';
+char end2 = 'Z';
+char ch2 = start2;
+while (ch2 <= end2)
 {
 putchar(ch);
 ch++;
