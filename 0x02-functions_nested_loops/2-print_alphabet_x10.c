@@ -12,7 +12,7 @@ char start = 'a';
 char end = 'z';
 char ch = start;
 int i = 0;
-if (i < 10, i++)
+if (i < 10; i++)
 {
 while (ch <= end)
 {
