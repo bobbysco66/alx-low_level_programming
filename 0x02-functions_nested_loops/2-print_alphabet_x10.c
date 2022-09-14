@@ -20,6 +20,6 @@ _putchar(ch);
 ch++;
 }
 _putchar('\n');
-i++
+i++;
 }
 }
