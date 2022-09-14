@@ -12,7 +12,7 @@ char start = 'a';
 char end = 'z';
 char ch = start;
 char i = 0;
-for (i < 10; i++)
+while (i < 10)
 {
 while (ch <= end)
 {
@@ -20,5 +20,6 @@ _putchar(ch);
 ch++;
 }
 _putchar('\n');
+i++
 }
 }
