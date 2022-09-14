@@ -11,8 +11,8 @@ void print_alphabet_x10(void)
 char start = 'a';
 char end = 'z';
 char ch = start;
-int i = 0;
-if (i < 10; i++)
+char i = 0;
+for (i < 10; i++)
 {
 while (ch <= end)
 {
