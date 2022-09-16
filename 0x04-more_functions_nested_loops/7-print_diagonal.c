@@ -20,7 +20,7 @@ _putchar(' ');
 _putchar('\\');
 if (len == (n - 1))
 {
-continue
+continue;
 }
 _putchar('\n');
 }
