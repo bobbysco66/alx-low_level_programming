@@ -26,7 +26,7 @@ putchar(' ');
 }
 else
 {
-putchar(i + '0');
+printf("%d", i);
 putchar(' ');
 }
 if (i == 100)
