@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  *print_numbers - Entry point
- * is the int that will use for the argument of the function
- * Return: Always 0 (Success)
+ * Return: nothing
  */
 void print_numbers(void)
 {
