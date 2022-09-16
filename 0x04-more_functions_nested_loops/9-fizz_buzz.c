@@ -26,13 +26,14 @@ putchar(' ');
 }
 else
 {
-putchar(i + '0');   
+putchar(i + '0');
 putchar(' ');
 }
 if (i == 100)
 {
 continue;
-}}
-printf("\n"); 
-return(0);
+}
+}
+printf("\n");
+return (0);
 }
