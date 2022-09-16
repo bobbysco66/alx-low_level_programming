@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+void print_most_numbers(void);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
