@@ -1,0 +1,12 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *mul - Entry point
+ *@a:  is the first int that will use for the argument of the function
+ *@b: second int
+ * Return: Always 0 (Success)
+ */
+int mul(int a, int b)
+{
+return (a*b);
+}
