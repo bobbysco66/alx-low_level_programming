@@ -18,7 +18,7 @@ for (gap = 0; gap < i; gap++)
 _putchar(' ');
 }
 _putchar('\\');
-if (len == (n - 1))
+if (i == (n - 1))
 {
 continue;
 }
