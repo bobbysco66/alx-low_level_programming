@@ -12,7 +12,7 @@ int row;
 int space;
 if (size > 0)
 {
-for (h = 0; h <= size; h++)
+for (h = 0; h < size; h++)
 {
 for (row = 0; row < (h + 1); row++)
 {
@@ -22,7 +22,7 @@ _putchar(' ');
 }
 _putchar('#');
 }
-if (h == size)
+if (h == (size - 1))
 {
 continue;
 }
