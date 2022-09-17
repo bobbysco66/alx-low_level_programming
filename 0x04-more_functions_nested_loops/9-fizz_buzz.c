@@ -7,34 +7,26 @@
 
 int main(void)
 {
-int i;
-for (i = 1; i <= 100; i++)
+int h = 1;
+while (h <= 100)
 {
-if ((i % 3 == 0) && (i % 5 == 0))
+if (h % 3 == 0 && h % 5 == 0)
+printf("FizzBuzz ");
+else if (h % 5 == 0)
 {
-printf("FizzBuzz");
-printf(" ");
-}
-else if ((i % 3) == 0)
-{
-printf("Fizz");
-printf(" ");
-}
-else if ((i % 5) == 0)
+if (h == 100)
 {
 printf("Buzz");
-printf(" ");
+printf("\n");
 }
 else
-{
-printf("%d", i);
-printf(" ");
+printf("Buzz ");
 }
-if (i == 100)
-{
-continue;
+else if (h % 3 == 0)
+printf("Fizz ");
+else
+printf("%d ", h);
+h++;
 }
-}
-printf("\n");
 return (0);
 }
