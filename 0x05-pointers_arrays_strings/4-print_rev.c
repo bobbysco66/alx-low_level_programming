@@ -14,10 +14,9 @@ c++;
 s++;
 }
 c--;
-for (c >= 0)
+for (c >= 0; c--)
 {
 _putchar(s[c]);
-c--;
 }
 _putchar('\n');
 }
