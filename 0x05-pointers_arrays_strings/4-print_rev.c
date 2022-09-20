@@ -13,9 +13,10 @@ while (*s != '\0')
 c++;
 s++;
 }
+c--;
 while (c >= 0)
 {
-_putchar(s[c] + '0');
+_putchar(s[c]);
 c--;
 }
 _putchar('\n');
