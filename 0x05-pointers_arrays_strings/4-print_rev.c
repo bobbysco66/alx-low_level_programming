@@ -15,7 +15,7 @@ s++;
 }
 while (c >= 0)
 {
-_putchar(s[c]);
+_putchar(s[c] + '0');
 c--;
 }
 _putchar('\n');
