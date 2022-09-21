@@ -5,7 +5,7 @@
  *@s:  is the int that will use for the argument of the function
  * Return: Always 0 (Success)
  */
-rev_string(char *s)
+void rev_string(char *s)
 {
 int c = 0;
 char *temp = s;
