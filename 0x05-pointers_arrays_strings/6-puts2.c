@@ -17,8 +17,8 @@ len = c - 1;
 c = 0;
 while (c < len)
 {
-_putchar(str[c + 1])
-c++
+_putchar(str[c + 1]);
+c++;
 }
 _putchar('\n');
 }
