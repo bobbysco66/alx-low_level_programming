@@ -17,7 +17,7 @@ s++;
 index = c - 1;
 while (c >= 0)
 {
-_putchar(s[index] + '\0');
+_putchar(s[index]);
 c--;
 }
 _putchar('\n');
