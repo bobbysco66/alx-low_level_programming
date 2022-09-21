@@ -10,13 +10,12 @@ rev_string(char *s)
 int c = 0;
 char *temp = *s;
 int len;
-int a = 0;
 while (s[c] != '\0')
 {
 c++;
 }
 len = c; 
-for (a <= len)
+for (int a = 0; a <= len; a++)
 {
 s[a] = temp[c];
 a++;
