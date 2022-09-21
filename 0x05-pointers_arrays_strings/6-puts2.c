@@ -20,12 +20,15 @@ while (c < len)
 if ( c == 0)
 {
 _putchar(str[c]);
+c++;
+continue;
 }
 else
 {
 _putchar(str[c + 1]);
-}
 c++;
+continue;
+}
 }
 _putchar('\n');
 }
