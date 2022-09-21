@@ -10,7 +10,8 @@ void rev_string(char *s)
 int c = 0;
 char *temp = s;
 int len;
-int a = 0; 
+int a = 0;
+_putchar(temp)
 while (s[c] != '\0')
 {
 c++;
