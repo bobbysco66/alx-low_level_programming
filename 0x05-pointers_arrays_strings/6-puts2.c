@@ -9,26 +9,15 @@ void puts2(char *str)
 {
 int c = 0;
 int len;
+int j; 
 while (str[c] != '\0')
 {
 c++;
 }
-len = c - 1;
-c = 0;
-while (c < len)
+len = c;
+for (j = 0 ; j < len ; j = j + 2)
 {
-if ( c == 0)
-{
-_putchar(str[c]);
-c++;
-continue;
-}
-else
-{
-_putchar(str[c + 1]);
-c++;
-continue;
-}
+_putchar(str[j]);
 }
 _putchar('\n');
 }
