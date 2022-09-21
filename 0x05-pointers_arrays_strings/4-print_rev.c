@@ -19,6 +19,7 @@ while (c >= 0)
 {
 _putchar(s[index]);
 c--;
+index = c; 
 }
 _putchar('\n');
 }
