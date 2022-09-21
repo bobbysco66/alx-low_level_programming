@@ -23,7 +23,7 @@ _putchar(str[c]);
 }
 else
 {
-_putchar(str[c + 2]);
+_putchar(str[c + 1]);
 }
 c++;
 }
