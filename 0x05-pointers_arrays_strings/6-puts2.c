@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 int c = 0;
 int len;
-while (s[c] != '\0')
+while (str[c] != '\0')
 {
 c++;
 }
@@ -17,7 +17,7 @@ len = c - 1;
 c = 0;
 while (c < len)
 {
-_putchar(s[c + 1])
+_putchar(str[c + 1])
 c++
 }
 _putchar('\n');
