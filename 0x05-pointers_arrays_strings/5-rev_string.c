@@ -15,13 +15,13 @@ while (s[c] != '\0')
 {
 c++;
 }
-len = c; 
-while (a <= len)
+len = c - 1; 
+while (a < len)
 {
 temp = s[a];
-s[a] = s[c];
-s[c] = temp; 
+s[a] = s[len];
+s[len] = temp; 
 a++;
-c--;
+len--;
 }
 }
