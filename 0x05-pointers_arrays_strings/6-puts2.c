@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *puts2 - Entry point
- *@s:  is the int that will use for the argument of the function
+ *@str:  is the int that will use for the argument of the function
  * Return: Always 0 (Success)
  */
 void puts2(char *str)
@@ -17,7 +17,7 @@ len = c - 1;
 c = 0;
 while (c < len)
 {
-_putchar(str[c + 1]);
+_putchar(str[c + 2]);
 c++;
 }
 _putchar('\n');
