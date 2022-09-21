@@ -17,7 +17,7 @@ len = c - 1;
 c = 0;
 while (c < len)
 {
-if ( c = 0)
+if ( c == 0)
 {
 _putchar(str[c]);
 }
