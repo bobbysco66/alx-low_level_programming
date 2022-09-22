@@ -1,0 +1,34 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *_strcmp - Entry point
+ *@s1:  is the int that will use for the argument of the function
+ *@s2: another one
+ *Return: Always 0 (Success)
+ */
+int _strcmp(char *s1, char *s2)
+{
+int c = 0;
+int k = 0;
+int b = 0;
+while (s1[k] != '\0')
+{
+k++;
+}
+while (s1[c] >= s2[c])
+{
+c++;
+}
+if (s1[c] == s2[c])
+{
+return (b);
+}
+else if (c <= k)
+{
+return (-15);
+}
+else
+{
+return (15);
+}
+}
