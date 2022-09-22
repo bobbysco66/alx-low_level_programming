@@ -15,16 +15,5 @@ while (s1[a] != '\0' && b == 0)
 b = s1[a] - s2[a];
 a++;
 }
-if (b > 0)
-{
-return (15);
-}
-else if (b < 0)
-{
-return (-15);
-}
-else
-{
-return (0);
-}
+return(b);
 }
