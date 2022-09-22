@@ -21,8 +21,6 @@ while (src[i] != '\0')
 {
 i++;
 }
-n = n + 1;
-i = i + 1;
 tot = n + i;
 diff = tot - i;
 i = 0;
@@ -32,5 +30,8 @@ dest[diff] = src[i];
 diff++;
 i++;
 }
+/*printf("diff value = %d", diff);
+printf("total value = %d", tot);
+*/
 return (dest);
 }
