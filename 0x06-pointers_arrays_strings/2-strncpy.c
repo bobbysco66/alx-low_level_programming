@@ -11,7 +11,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 int k = 0;
 int tot = 0;
-int i = 0;
+int c = 0;
 int holdi = 0;
 int holdn = 0;
 holdn = n;
@@ -19,29 +19,31 @@ while (dest[k] != '\0')
 {
 k++;
 }
-while (src[i] != '\0')
+while (src[c] != '\0')
 {
-i++;
+c++;
 }
-holdi = i;
-if (n >= i)
+holdi = c;
+if (n >= c)
 {
-n = i;
+n = c;
 }
 else
 {
 n = n;
 }
-i = 0;
+c = 0;
 tot = n;
-while (i < tot)
+while (c < tot)
 {
-dest[i] = src[i];
-i++;
+dest[c] = src[c];
+c++;
 }
-if (holdn >= holdi)
+while (holdn > holdi)
 {
-dest[i] = '\0';
+dest[c] = '\0';
+c++;
+holdi++;
 }
 return (dest);
 }
