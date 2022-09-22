@@ -30,8 +30,7 @@ dest[diff] = src[i];
 diff++;
 i++;
 }
-/*printf("diff value = %d", diff);
-printf("total value = %d", tot);
-*/
+/*printf("diff value = %d", diff);*/
+/*printf("total value = %d", tot);*/
 return (dest);
 }
