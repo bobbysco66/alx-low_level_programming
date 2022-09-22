@@ -9,8 +9,11 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int k, i, tot = 0;
-int holdn, holdi = 0;
+int k = 0;
+int tot = 0;
+int i = 0;
+int holdi = 0;
+int holdn = 0;
 holdn = n;
 while (dest[k] != '\0')
 {
