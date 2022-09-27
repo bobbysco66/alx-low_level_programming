@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *_strstr - Entry point
- *@haytack:  is the int that will use for the argument of the function
+ *@haystack:  is the int that will use for the argument of the function
  *@needle: another one
  *Return: Always 0 (Success)
  */
@@ -12,7 +12,7 @@ int len = 0;
 int len2 = 0;
 int count = 0;
 int k = 0;
-int d = 0; 
+int d = 0;
 while (haystack[k] != '\0')
 {
 k++;
