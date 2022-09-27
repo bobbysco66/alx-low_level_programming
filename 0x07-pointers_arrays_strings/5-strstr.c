@@ -22,7 +22,7 @@ while (haystack[d] != ' ')
 d++;
 }
 len = k - d;
-while (len <= k)
+while (len < k)
 {
 while (needle[len2] != '\0')
 {
