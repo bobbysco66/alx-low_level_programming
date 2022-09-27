@@ -36,5 +36,5 @@ len2++;
 len2 = 0;
 len++;
 }
-return (0);
+return ('\0');
 }
