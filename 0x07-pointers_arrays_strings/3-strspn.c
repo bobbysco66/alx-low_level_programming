@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 int len = 0;
 int len2 = 0;
 int count = 0;
-while(s[len] != ' ')
+while (s[len] != ' ')
 {
 while (accept[len2] != '\0')
 {
@@ -24,5 +24,5 @@ len2++;
 len2 = 0;
 len++;
 }
-return(count);
+return (count);
 }
