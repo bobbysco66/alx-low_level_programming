@@ -1,0 +1,15 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * _strchr - fills memory with constant byte
+ * @s: string
+ * @c: character
+ * Return:the character
+ */
+char *_strchr(char *s, char c)
+{
+int k = 0;
+while (s[k] != '\0')
+{
+k++;
+}
