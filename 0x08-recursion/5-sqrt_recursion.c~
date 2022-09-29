@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *_sqrt_recursion - Entry point
+ *@n:  is the int that will use for the argument of the function
+ * Return: Always 0 (Success)
+ */
+int _sqrt_recursion(int n)
+{
+int square = n % n;
+if (square == 0)
+{
+return (square);
+}
+else
+{
+return (-1);
+}
+}
