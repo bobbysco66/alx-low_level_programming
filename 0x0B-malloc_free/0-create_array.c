@@ -27,7 +27,7 @@ else
 {
 while (i < size)
 {
-a[i]= c;
+a[i] = c;
 i++;
 }
 }
