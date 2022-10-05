@@ -18,17 +18,15 @@ if (s1 == NULL)
 {
 s1 = "";
 }
- if (s2 == NULL)
+else if (s2 == NULL)
 {
 s2 = "";
 }
 concat = (char *)malloc(sizeof(char) * (len1 + len2));
-if (concat == NULL)
+else if (concat == NULL)
 {
 return (NULL);
 }
-else
-{
 while (s1[i] != '\0')
 {
 concat[i] = s1[i];
@@ -40,7 +38,6 @@ while (s2[a] != '\0')
 concat[i] = s2[a];
 i++;
 a++;
-}
 }
 return (concat);
 }
