@@ -18,12 +18,12 @@ if (s1 == NULL)
 {
 s1 = "";
 }
-else if (s2 == NULL)
+if (s2 == NULL)
 {
 s2 = "";
 }
 concat = (char *)malloc(sizeof(char) * (len1 + len2));
-else if (concat == NULL)
+if (concat == NULL)
 {
 return (NULL);
 }
