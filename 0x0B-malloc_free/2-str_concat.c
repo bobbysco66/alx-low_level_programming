@@ -14,9 +14,13 @@ int len2 = strlen(s2) + 1;
 char *concat = NULL;
 int a;
 int i = 0;
-if ((s1 == NULL) || (s2 == NULL))
+if (s1 == NULL)
 {
-return ('\0');
+s1 = "";
+}
+ if (s2 == NULL)
+{
+s2 = "";
 }
 concat = (char *)malloc(sizeof(char) * (len1 + len2));
 if (concat == NULL)
