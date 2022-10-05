@@ -18,10 +18,17 @@ return (NULL);
 }
 i = strlen(str) + 1;
 dup = malloc(strlen(str) + 1);
+if (dup == NULL)
+{
+return (NULL);
+}
+else
+{
 while (m <= i)
 {
 dup[m] = str[m];
 m++;
+}
 }
 return (dup);
 }
