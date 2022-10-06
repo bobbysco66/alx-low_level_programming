@@ -27,11 +27,7 @@ if (n >= len2)
 {
 n = len2;
 }
-if (n < len2)
-{
-len2 = n;
-}
-concat = (char *)malloc(sizeof(char) * (len1 + len2 - 1));
+concat = (char *)malloc(sizeof(char) * (len1 + n - 1));
 if (concat == NULL)
 {
 return (NULL);
@@ -40,7 +36,7 @@ for (i = 0; s1[i] != '\0'; i++)
 {
 concat[i] = s1[i];
 }
-for (a = 0; a <= n; a++)
+for (a = 0; a < n; a++)
 {
 concat[i] = s2[a];
 i++;
