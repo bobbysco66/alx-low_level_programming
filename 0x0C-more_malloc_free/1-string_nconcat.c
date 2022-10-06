@@ -40,5 +40,6 @@ for (a = 0 ; s2[a] != '\0' && a != n ; a++, i++)
 {
 concat[i] = s2[a];
 }
+concat[i] = '\0';
 return (concat);
 }
