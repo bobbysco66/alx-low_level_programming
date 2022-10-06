@@ -26,8 +26,8 @@ len2 = strlen(s2) + 1;
 if (n >= len2)
 {
 n = len2;
-}
-concat = (char *)malloc(sizeof(char) * (len1 + n - 1));
+}   
+concat = malloc(sizeof(char) * (len1 + n - 1));
 if (concat == NULL)
 {
 return (NULL);
