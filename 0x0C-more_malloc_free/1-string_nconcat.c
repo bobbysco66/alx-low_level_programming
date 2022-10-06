@@ -36,7 +36,7 @@ for (i = 0; s1[i] != '\0'; i++)
 {
 concat[i] = s1[i];
 }
-for (a = 0 ; s2[a] != '\0' && a != n ; a++, i++)
+for (a = 0 ; s2[a] != '\0' && a < n ; a++, i++)
 {
 concat[i] = s2[a];
 }
