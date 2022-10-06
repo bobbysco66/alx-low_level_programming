@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdlib.h>
+#include <string.h>
+/**
+ * malloc_checked - create an array of chars
+ * @b: size of the memory to print
+ *
+ * Return: a pointer of array or NULL if it fails
+ */
+void *malloc_checked(unsigned int b)
+{
+void *op;
+op = malloc(b);
+if (op == NULL)
+{
+exit(98);
+}
+return (op);
+}
