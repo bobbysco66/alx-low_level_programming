@@ -2,44 +2,44 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * string_nconcat - concat two arrays
- * @s1: size of the memory to print
- * @s2: size of the memory to print
- * @n: the memory to allocate
- * Return: a pointer of array or NULL if it fails
+ * string_nconcat - concatenates two strings
+ * @s1: string 1
+ * @s2: string 2
+ * @n: bytes of s2
+ *
+ * Return: a pointer with the content of s1 followed by n byte of s2
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int len1, len2;
-unsigned int i, a;
-char *concat = NULL;
+unsigned int length1, length2, i, j;
+char *space;
 if (s1 == NULL)
 {
 s1 = "";
 }
-len1 = strlen(s1) + 1;
 if (s2 == NULL)
 {
 s2 = "";
 }
-len2 = strlen(s2) + 1;
-if (n >= len2)
+length1 = strlen(s1);
+length2 = strlen(s2);
+if (n >= length2)
 {
-n = len2;
-}   
-concat = malloc(sizeof(char) * (len1 + n - 1));
-if (concat == NULL)
+n = length2;
+}
+space = malloc(sizeof(char) * (n + length1 + 1));
+if (space == NULL)
 {
 return (NULL);
 }
-for (i = 0; s1[i] != '\0'; i++)
+for (i = 0 ; i < length1 ; i++)
 {
-concat[i] = s1[i];
+space[i] = s1[i];
 }
-for (a = 0 ; s2[a] != '\0' && a < n ; a++, i++)
+for (j = 0 ; s2[j] != '\0' && j != n ; j++, i++)
 {
-concat[i] = s2[a];
+space[i] = s2[j];
 }
-concat[i] = '\0';
-return (concat);
+space[i] = '\0';
+return (space);
 }
