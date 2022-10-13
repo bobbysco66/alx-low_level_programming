@@ -5,7 +5,7 @@
  * @size: The size
  * @array: The array
  * @cmp: The name
- *
+ * Return: the index of the first element found match
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -24,5 +24,5 @@ return (i);
 }
 }
 }
-return (-1); 
+return (-1);
 }
