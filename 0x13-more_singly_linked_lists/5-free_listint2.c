@@ -14,5 +14,5 @@ y = p;
 p = p->next;
 free(y);
 }
-*head = NULL;
+head = NULL;
 }
