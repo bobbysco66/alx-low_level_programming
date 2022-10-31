@@ -1,1 +1,1 @@
-C programming
+static library
